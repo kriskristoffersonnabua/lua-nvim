@@ -1,4 +1,5 @@
 require('config.lazy')
 require('config.mappings')
 require('config.basic-settings')
-require('config.sonarqube-config')
+require('config.lsp')
+

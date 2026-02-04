@@ -39,5 +39,4 @@ map('n', '<C-H>', ':cp<cr>', opts)
 map('n', '<C-L>', ':cn<cr>', opts)
 
 -- window navigations
-map('n', '-', ':Ex<cr>', opts)
 map('n', '<leader>e', ':Ex<cr>', opts)

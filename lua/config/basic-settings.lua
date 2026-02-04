@@ -2,7 +2,7 @@ local set = vim.opt
 
 set.swapfile = false
 set.splitbelow = true
-set.relativenumber = false
+set.relativenumber = true
 set.number = true
 set.nuw = 5
 set.encoding = 'UTF-8'
