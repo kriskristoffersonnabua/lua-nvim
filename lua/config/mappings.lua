@@ -32,7 +32,7 @@ map('n', '<leader>t', ':tabnew<CR>', opts)
 
 -- telescope shortcuts
 map('n', '<C-p>', '<cmd>Telescope find_files<cr>', opts)
-map('n', '<C-b>', '<cmd>Telescope live_grep<cr>', opts)
+map('n', '<C-f>', '<cmd>Telescope live_grep<cr>', opts)
 
 -- quickfix list shortcuts
 map('n', '<C-H>', ':cp<cr>', opts)

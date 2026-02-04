@@ -2,8 +2,17 @@ return {
   "mason-org/mason-lspconfig.nvim",
   opts = {
     ensure_installed = {
+      "ts_ls",
+      "html",
+      "cssls",
+      "tailwindcss",
+      "svelte",
       "lua_ls",
-      "ts_lua"
+      "graphql",
+      "emmet_ls",
+      "prismals",
+      "pyright",
+      "eslint",
     }
   },
   dependencies = {
